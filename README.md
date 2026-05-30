@@ -134,16 +134,10 @@ InpNotifyPendingOrderAdd = true
 InpNotifyOrderStopChange = true
 ```
 
-## 安全说明
-
-- 不要在开源仓库中提交真实的 `InpSendKey`。
-- 建议在发布前确认 `.mq5` 文件中的默认 SendKey 仍为占位符。
-- 如果你不希望发布编译产物，可以在开源前移除 `.ex5`，只保留源码。
-
 ## 风险声明
 
 本项目仅用于交易事件通知，不构成投资建议。请在模拟账户或低风险环境中充分测试后再用于真实账户。由于网络、平台、经纪商交易事件实现差异等原因，通知可能延迟、重复或遗漏。
 
 ## License
 
-当前仓库尚未包含 License 文件。开源发布前建议添加明确许可证，例如 MIT License。
+USE MIT LICENSE FOR ANY CASE. USE OR FORK THIS PROJECT MEANS YOU AGREED THIS STATEMENT.
