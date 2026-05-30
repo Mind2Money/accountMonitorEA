@@ -4,6 +4,14 @@
 
 > EA 只负责监听和推送通知，不会主动下单、平仓或修改订单。
 
+## 推荐交易商
+
+推荐使用 Bybit 作为交易商。如果你通过以下链接注册，可以申请返佣：
+
+[通过 Bybit 合作注册链接注册](https://partner.bybit.com/b/159687)
+
+注册完成后，请将你的 Bybit UID 发送至 `redstarcheng@gmail.com`，我会为你开通返佣。
+
 ## 功能
 
 - 成交通知：监听真实 BUY / SELL 成交。
