@@ -12,9 +12,11 @@ input string InpServerChanMode = "turbo";
 input string InpSendKey = "PUT_YOUR_SENDKEY_HERE";
 input string InpServerChanUID = "";   // only for sc3
 input bool   InpNotifyDealAdd = true;             // 成交通知
-input bool   InpNotifyPendingOrderAdd = true;     // 挂单通知
-input bool   InpNotifyOrderStopChange = true;     // 挂单 SL/TP 添加或修改通知
 input bool   InpNotifyPositionStopChange = true;  // 持仓 SL/TP 添加或修改通知
+
+input bool   InpNotifyPendingOrderAdd = false;     // 挂单通知
+input bool   InpNotifyOrderStopChange = false;     // 挂单 SL/TP 添加或修改通知
+
 input bool   InpNotifyRequest = false;            // 请求回报调试通知
 
 input int    InpHttpTimeoutMs = 5000;
