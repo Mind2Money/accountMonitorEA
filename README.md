@@ -17,15 +17,15 @@
 
 ```text
 MQL5/
-  accountMointorEA.mq5   # EA 源码
-  accountMointorEA.ex5   # 已编译文件
+  accountMonitorEA.mq5   # EA 源码
+  accountMonitorEA.ex5   # 已编译文件
 ```
 
 ## 安装
 
 1. 打开 MT5，进入 `文件 -> 打开数据文件夹`。
-2. 将 `MQL5/accountMointorEA.mq5` 复制到 MT5 数据目录下的 `MQL5/Experts/`。
-3. 使用 MetaEditor 打开并编译，或直接使用仓库里的 `MQL5/accountMointorEA.ex5`。
+2. 将 `MQL5/accountMonitorEA.mq5` 复制到 MT5 数据目录下的 `MQL5/Experts/`。
+3. 使用 MetaEditor 打开并编译，或直接使用仓库里的 `MQL5/accountMonitorEA.ex5`。
 4. 在 MT5 中刷新“导航器 -> 专家顾问”，把 EA 挂到任意图表。
 5. 开启 MT5 的 Algo Trading / 自动交易。
 
@@ -95,14 +95,14 @@ TP: 1.09500 -> 1.09800
 
 推荐使用 MetaEditor 编译：
 
-1. 打开 `MQL5/accountMointorEA.mq5`。
+1. 打开 `MQL5/accountMonitorEA.mq5`。
 2. 点击 `编译`。
 3. 确认没有 error。
 
 也可以在 Windows 命令行中使用 MetaEditor：
 
 ```powershell
-& "C:\Program Files\MetaTrader 5\MetaEditor64.exe" /compile:"E:\Documents\Repos\Trading\accountMointorEA\MQL5\accountMointorEA.mq5"
+& "C:\Program Files\MetaTrader 5\MetaEditor64.exe" /compile:"<repo-path>\MQL5\accountMonitorEA.mq5"
 ```
 
 ## 常见问题
